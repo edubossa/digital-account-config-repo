@@ -6,7 +6,7 @@ spring:
       uri: http://${SPRING_CONFIG_URI:localhost:8888}
 
 server:
-  port: 9999
+  port: 9998
 
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
 ribbon:
