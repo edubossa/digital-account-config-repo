@@ -1,6 +1,6 @@
 spring:
   application:
-    name: router-zuul
+    name: zuul-service
   cloud:
     config:
       uri: http://${SPRING_CONFIG_URI:localhost:8888}
