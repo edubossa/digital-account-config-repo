@@ -5,8 +5,8 @@ spring:
     config:
       uri: http://${SPRING_CONFIG_URI:localhost:8888}
 
-server:
-  port: ${ACCOUT_PORT:8082}
+#server:
+                            ##  port: ${ACCOUT_PORT:8082}
 #  servlet:
 #    context-path: "/accounts"
 
@@ -18,7 +18,7 @@ eureka:
 
 
 instance:
-  name: instance-9824
+  name: instance-5555
 
 management:
   endpoint:
