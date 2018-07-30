@@ -5,8 +5,8 @@ spring:
     config:
       uri: http://${SPRING_CONFIG_URI:localhost:8888}
 
-server:
-  port: 8762
+#server:
+#  port: 8761
 
 # config eureka in cluster
 eureka:

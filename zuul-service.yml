@@ -8,16 +8,10 @@ spring:
 server:
   port: 9999
 
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
-ribbon:
-  ConnectTimeout: 3000
-  ReadTimeout: 60000
-
 eureka:
   client:
     service-url:
       defaultZone: http://${SPRING_EUREKA_SERVER:localhost:8761}/eureka/
-
 
 
 zuul:
