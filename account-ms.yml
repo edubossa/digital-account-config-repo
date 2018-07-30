@@ -1,9 +1,9 @@
 spring:
   application:
     name: account-ms
-#  cloud:
-#    config:
-#      uri: http://${SPRING_CONFIG_URI:localhost:8888}
+  cloud:
+    config:
+      uri: http://${SPRING_CONFIG_URI:localhost:8888}
 
 server:
   port: ${ACCOUT_PORT:8080}
