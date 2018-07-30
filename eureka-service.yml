@@ -6,7 +6,7 @@ spring:
       uri: http://${SPRING_CONFIG_URI:localhost:8888}
 
 server:
-  port: 8762
+  port: 8761
 
 # configure eureka to single instance
 eureka:
